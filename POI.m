@@ -1,5 +1,7 @@
 function P = POI(img)
 
+% Finding the point of intersection of the horizontal blue line and vertical pink line
+
 if size(img,1) ~= 352 && size(img,2) ~= 352 
     img = imresize(img, [352 352]);
 end
